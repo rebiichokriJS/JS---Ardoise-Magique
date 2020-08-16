@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" rel="stylesheet">
+                <link href="css/style.css" rel="stylesheet" type="text/css">
+                    <title>
+                        JS4.2 - Ardoise Magique
+                    </title>
+                </link>
+            </link>
+            <script
+              src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1><i class="fas fa-paint-brush"></i> Ardoise Magique ;-)
+            </h1>
+            <section>
+                <canvas height="600" id="ardoise" width="900">
+                </canvas>
+                <canvas class="hide" height="300" id="palette" width="300">
+                </canvas>
+            </section>
+            <hr>
+            </hr>
+            <nav>
+                <ul>
+                    <li>
+                        <h5>
+                            Outils
+                        </h5>
+                        <div id="reset" class="utility"><i class="fas fa-eraser"></i>
+                        </div>
+                        <div id="stylo" class="utility"><i class="fas fa-eye-dropper"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <h5>
+                            Couleur
+                        </h5>
+                        <div class="color" id="black" data-color="black">
+                        </div>
+                        <div class="color" id="brown" data-color="brown">
+                        </div>
+                        <div class="color" id="red" data-color="red">
+                        </div>
+                        <div class="color" id="yellow" data-color="yellow">
+                        </div>
+                        <div class="color" id="green" data-color="green">
+                        </div>
+                        <div class="color" id="turquoise" data-color="turquoise">
+                        </div>
+                        <div class="color" id="blue" data-color="blue">
+                        </div>
+                    </li>
+                    <li>
+                        <h5>
+                            Epaisseur
+                        </h5>
+                        <div class="btn" id="fin" data-size="1">
+                            Fin
+                        </div>
+                        <div class="btn" id="normal" data-size="3">
+                            Normal
+                        </div>
+                        <div class="btn" id="epais" data-size="5">
+                            Epais
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+        <script src="js/ardoise.class.js" type="text/javascript">
+        </script>
+        <script src="js/stylo.class.js" type="text/javascript">
+        </script>
+        <script src="js/palette.class.js" type="text/javascript">
+        </script>
+        <script src="js/program.class.js" type="text/javascript">
+        </script>
+        <script src="js/main.js" type="text/javascript">
+        </script>
+    </body>
+</html>

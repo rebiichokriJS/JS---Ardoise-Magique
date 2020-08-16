@@ -1,0 +1,112 @@
+body {
+    background-color: #ECF0F1;
+}
+h1 {
+    font-family: sans-serif;
+	font-size: 2rem;
+	color: red;
+	font-weight: bold;
+}
+#ardoise {
+    background-color: white;
+    border: ridge black 1px;
+}
+#palette {
+    background-color: white;
+    border: ridge black 1px;
+    margin-left: 40px;
+}
+ul {
+    list-style: none;
+}
+li {
+	margin-bottom: 1px;
+}
+h5 {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-right: 40px;
+}
+.utility {
+	display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 2px;
+    margin: 2px;
+}
+.utility:hover{
+    background-color: grey;
+}
+.color {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 2px;
+}
+#black {
+    background-color: black;
+}
+#black:hover{
+    box-shadow: 1px 1px 1px 1px black;
+}
+#brown {
+    background-color: brown;
+}
+#brown:hover{
+    box-shadow: 1px 1px 1px 1px brown;
+}
+#red {
+    background-color: red;
+}
+#red:hover{
+    box-shadow: 1px 1px 1px 1px red;
+}
+#yellow {
+    background-color: yellow;
+}
+#yellow:hover{
+    box-shadow: 1px 1px 1px 1px yellow;
+}
+#green {
+    background-color: green;
+}
+#green:hover{
+    box-shadow: 1px 1px 1px 1px green;
+}
+#turquoise {
+    background-color: turquoise;
+}
+#turquoise:hover{
+    box-shadow: 1px 1px 1px 1px turquoise;
+}
+#blue {
+    background-color: blue;
+}
+#blue:hover{
+    box-shadow: 1px 1px 1px 1px blue;
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.btn:hover{
+    background-color: grey;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.hide{
+    display: none;
+}
